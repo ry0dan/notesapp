@@ -1,0 +1,10 @@
+{%extends "layout.html" %}
+{%block content%}
+<center><form class="" action="{{ url_for('home') }}" method="post">
+  <textarea name="tn" rows="8" cols="60"></textarea>
+  <button name="button">Send</button>
+</form></center>
+{% for note in notes %}
+<p> {{ note }} </p>
+{% endfor %}
+{% endblock %}

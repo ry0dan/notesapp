@@ -1,0 +1,94 @@
+
+div{
+  padding: 5px;
+  background: #1C6EA4;
+  height: 30%;
+  font-size: 25px;
+  font-family: arial;
+  margin-bottom: 10px;
+  color: white;
+  margin:0px;
+}
+a {
+  font-size: 15px;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #1C6EA4;
+  box-shadow: 10px;
+  color: white;
+  float: right;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #1C6EA0;
+  cursor: pointer;
+}
+a:active{
+  background-color:#1C6EA2
+}
+}
+form{
+  margin: 10px;
+  border: 10px solid red;
+  background: black;
+}
+textarea{
+  width:80%;
+  margin-top: 10px;
+  border-style: groove;
+  border-width: thin;
+  border-radius: 9px;
+  border-color: black;
+  font-family: arial;
+}
+button{
+  display: block;
+  color: white;
+  background-color: #1C6EA0;
+  font-size: 40px;
+  border-radius: 10px;
+  border: 3px solid;
+  font-family: arial;
+  margin: 10px;
+}
+p{
+  color: #00008B;
+  background-color: #87CEFA;
+  margin:15px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: "arial";
+  border-radius: 12px;
+}
+.about{
+  background-color: #87CEFA;
+  color:#00008B;
+  border-radius: 10px;
+  margin: 10px;
+  height:40%;
+}
+img{
+  width: 40%;
+  height: 45%;
+  margin: 10px;
+  border-radius: 100px;
+  display: inline;
+}
+h6{
+  text-align: center;
+}
+.des{
+  width: 40%;
+  font-size: 16px;
+  height: 50%;
+  float: left;
+  display: inline;
+  text-indent: 10px;
+}
+p > a{
+  float:left;
+  margin: auto;
+}

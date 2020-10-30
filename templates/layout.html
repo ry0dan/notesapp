@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }} "media="screen" >
+    <title>PYNOTE</title>
+  </head>
+  <body>
+    <div>
+      PYNOTE
+      <a href="{{ url_for("about") }}">about</a>
+      <a href="{{ url_for("home") }}">home</a>
+    </div>
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
